@@ -1,0 +1,1902 @@
+// custom style
+html {
+    height: 100%;
+}
+body {
+    
+    background: #fff;
+    color: #555;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+@font-face {
+    font-family: 'Kh-Baphnom-026-Theany';
+    src: url(../fonts/Kh-Baphnom-026-Theany.ttf);
+    font-style: normal;
+    font-weight :500;
+}
+
+
+@font-face {
+    font-family: 'KhmerOScontent';
+    src: url(../fonts/KhmerOScontent.ttf);
+    font-style: normal;
+    font-weight :500;
+}
+
+a {
+    color: #555;
+}
+h5 {
+    color: #555;
+}
+
+.card-header {
+    font-family: 'KhmerOScontent';
+}
+
+.img-menu {
+    width: 50px;
+    margin-right: 10px;
+}
+.logo-header {
+    width: 200px;
+    margin-top: 30px;
+    margin-left: -5px;
+}
+
+
+.header {
+    background: url("../css/img/1.png") bottom center / cover no-repeat;
+    width: 100%;
+    height: 110px;
+    border-bottom: 1px solid #DDE3E6;
+    .navbar-text {
+        text-align: right;
+        width: 35px; 
+    }
+    
+    
+    .flag-k img{
+        width: 45px;
+        height: 25px;
+    }
+    .flag-e img {
+        width: 45px;
+        height: 25px;
+    }
+    .flag-k  {
+        margin-left: 5px;
+    }
+
+    
+    .flag-k:hover {
+        background: #FFD700;
+    }
+    .flag-e:hover {
+        background: #FFD700;
+      
+    }
+
+    .flag-active {
+        background: #FFD700;
+    }
+
+    .top-icon {
+        width: 30px; 
+        font-weight: 700;
+    }
+    .topbar-address {
+        padding: 8px 140px;
+        background: #FF0013;
+        width: 100%;
+        height: 40px;
+        color: #fff;
+        font-size: 15px;
+        clip-path: polygon(0 0, 100% 0%, 93% 100%, 0% 100%);
+    }
+    .active {
+        color: #FF0013;
+        border-bottom: 2px solid #FF0013;
+    }
+    ul {
+        list-style-type: none;
+        margin: 5px;
+        padding: 0;
+        overflow: hidden;
+        
+      }
+      
+      li {
+        float: right;
+      }
+      
+      li a {
+        display: block;
+        color: #555;
+        text-align: center;
+        padding: 3px;
+        font-size: 15px;
+        text-decoration: none;
+      }
+
+}
+
+.flag {
+    display: none;
+}
+.list-group-item.active{
+    font-family: 'KhmerOScontent';
+    font-size: 17px;
+    font-weight: 100;
+}
+
+.fn-btn {
+    display: none;
+    position: fixed;
+    right: 69px;
+    top: 20px;
+    z-index: 9999;
+}
+
+.sticky {
+    background: #FFF;
+    position: fixed;
+    top: 0;
+    width: 100%;   
+    box-shadow: 0 2px 2px #efefef;
+    
+}
+
+.section-title {
+    font-family: 'KhmerOScontent';
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.title-image {
+    width: 200px;
+}
+.title-4d-image {
+    width: 250px;
+}
+
+
+
+.result-title {
+    font-family: 'Kh-Baphnom-026-Theany';
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+.game-five-d {
+    font-family: 'Kh-Baphnom-026-Theany';
+    z-index: 2;
+    width: 100%;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.list-group-item.active {
+    background-color: #FF0013;
+    border-color: #FF0013;
+}
+
+.header-show {
+    padding-top: 40px;
+}
+.header-show h5 {
+    font-family: 'Kh-Baphnom-026-Theany';
+    font-size: 18px;
+}
+
+#navbar {
+    z-index: 3;
+    border-bottom: 1px solid #E9ECEF;
+    .navbar {
+        padding-bottom: 0px;
+        padding-top: 0px;
+        z-index: 3;
+    }
+    
+    .dropdown-menu {
+        margin-top: 5px;
+        background: rgba(0,0,0,0.5);
+        border: none;
+        border-radius: 0px;
+        -webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
+        -ms-border-radius: 0px;
+        -o-border-radius: 0px;
+    }
+    .dropdown-item {
+        text-transform: uppercase;
+        padding: 0.50rem 1rem;
+        clear: both;
+        font-weight: 500;
+        color: #ffffff;
+        border-bottom: 1px solid #ffffff;
+        &:last-child{
+            border-bottom: none;
+        }
+        &:hover {
+            background: #FF0013;
+            color: #ffffff;
+            opacity: 0.8;
+        }
+
+    }
+    
+    .wingo-logo {
+        padding: 0px;
+        img{
+            height: 70px;
+        }
+    }
+    .nav-link {
+        color: #555;
+        font-size: 17px;
+        font-weight: 700;
+        padding: 1rem;
+        text-transform: uppercase;
+        &:hover {
+            color: #FF0013;
+            border-bottom: 2px solid #FF0013;
+        }
+    }
+    
+
+}
+
+/*------------------------------------------------------------
+# Social Sticky bar
+-------------------------------------------------------------*/
+    /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+
+    #touch {
+        background-color: rgba(0, 0, 0, .4);
+        padding: 10px 0;
+        position: fixed;
+        top: 60%;
+        right: 0%;
+        height: 40px;
+        width: 40px;
+        z-index: 9999;
+        -webkit-box-shadow: 0 8px 6px -9px #999;
+        box-shadow: 0 8px 6px -9px #999;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+    } 
+    
+    .social-bar-reveal {
+        background-color: red;
+        color: #000;
+        z-index: 999;
+        border: 1px solid #cdcbcd;
+    } 
+    .modal-body {
+        .icon-bar-small {
+            top: 50%;
+            right: 0%;
+        }
+    }
+
+
+    .icon-bar-small {
+        display: flex;
+        width: 100%;
+        background: #FF0013;
+        padding: 5px 3px 7px 10px;
+        position: fixed;
+        right: 0%;
+        bottom: 0%;
+        z-index: 9999;
+        height: 60px;
+        border-top: 1px solid #fff;
+        justify-content: space-between;
+
+        .img-fluid {
+            width: 60%;
+        }
+    }
+    
+    .modal-body img {
+        border: 2px solid red;
+    }
+    .label {
+        width: 100px;
+    }
+    .label p {
+        color: #FFF;
+        font-size: 12px !important;
+    }
+    .icon-bar-small a {
+        width: 50px;
+        height: 50px;
+    }
+    .icon-bar {
+        background: #DDE3E6;
+        padding: 10px 0;
+        position: fixed;
+        top: 40%;
+        right: 0%;
+        z-index: 999;
+        border-radius: 3px;
+        
+      }
+  
+      /* Style the icon bar links */
+      .icon-bar a {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin: 13px 5px;
+        display: block;
+        text-align: center;
+        transition: all 0.3s ease;
+        color: white;
+        font-size: 16px;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+}
+      .icon-bar div {
+        cursor: pointer;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin: 13px 5px;
+        display: block;
+        text-align: center;
+        transition: all 0.3s ease;
+        color: white;
+       
+      }
+      
+  
+      /* Style the social media icons with color, if you want */
+      .icon-bar a:hover {
+        background-color: none;
+      }
+  
+      .tooltiptext {
+        width: 170px;
+        height: 170px;
+        background: #FFD700;
+       
+        padding: 9px 8px 8px 8px;
+        position: absolute;
+        z-index: 9998;
+        top: 5%;
+        right: 115%;
+       
+}
+      .tooltipphone {
+        width: 170px;
+        background: #FFD700;
+        border: 1px solid #777;
+        font-size: 20px;
+        font-weight: 500;
+        color: #555;
+        padding: 9px 8px 8px 8px;
+
+        /* Position the tooltip */
+        position: absolute;
+        z-index: 9998;
+        bottom: 0px;
+        right: 115%;
+      }
+
+      .phone:hover .tooltiptext {
+          display: block;
+      }
+  
+      #checkboxes label{
+        display:inline-block;
+        padding:10px 20px;
+    }
+    hr {
+      margin-top: 0px;
+    }
+  
+
+/*--------------------------------------------------------------
+# Sections General
+--------------------------------------------------------------*/
+section {
+    padding: 60px 0;
+    overflow: hidden;
+  }
+  
+  .section-bg {
+    background-color: #f6f3f2;
+  }
+  
+  .section-title {
+    padding-bottom: 30px;
+    text-align: center;
+  }
+  
+  .section-title h2 {
+    font-size: 28px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    padding-bottom: 0;
+    text-align: left;
+    color: #65534c;
+  }
+  
+  
+  .section-title p {
+    margin-bottom: 0;
+  }
+  
+  /*--------------------------------------------------------------
+  # Services
+  --------------------------------------------------------------*/
+  .services .icon-box {
+    padding: 50px 20px;
+    margin-top: 35px;
+    margin-bottom: 25px;
+    text-align: center;
+    border: 1px solid #ebe6e4;
+
+    position: relative;
+    background: #faf9f8;
+  }
+  
+  .services .icon {
+    position: absolute;
+    top: -36px;
+    left: calc(50% - 36px);
+    transition: 0.2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+  }
+  
+  .services .icon i {
+    color: #fff;
+    font-size: 24px;
+  }
+  
+  .services .title {
+    font-family: 'Kh-Baphnom-026-Theany';
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+  
+  .services .title a {
+
+    color: #343a40;
+  }
+  
+  /* .services .icon-box:hover .icon {
+  } */
+  
+  .services .icon-box:hover .icon i {
+    color: #FFF200;
+  }
+  
+  .services .icon-box:hover .title a {
+    color: #FF0013;
+  }
+  
+  .services .description {
+    font-family: 'KhmerOScontent';
+    text-align: left;
+    line-height: 24px;
+  }
+  .show-more {
+      display: none;
+  }
+
+  .zoom {
+    transition: transform .2s; /* Animation */
+    margin: 0 auto;
+  }
+  .zoom:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+  
+#section-result {
+    background: url("../css/img/2.png") bottom center / cover no-repeat;
+    position: relative;
+    .six-ball-wrape {
+        position: relative;
+        padding: 15px 0px;
+        background: #ffffff;
+        width: 100%;
+        margin: 0px 5px;
+    }
+    .result-title img{
+        width: 45px;
+    }
+   
+      
+
+    .countdown {
+        position: absolute;
+        padding: 2px 25px;
+        right: 1%;
+        top: 0%;
+        text-align: right;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        .display{
+            font-size: 25px;
+            font-weight: 500;
+        }
+    }
+
+
+    .btn{
+        background: none;
+        padding: 0px;
+        pointer-events: none;
+        
+    }
+    .ball-image {
+        height: 70px;
+    }
+
+    
+    .wrap-ball-bg {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 27%;
+        left: 0;
+    }
+
+    .btn-result{ 
+       font-weight: 700;
+       height: 45px;
+       font-size: 25px;
+       width: 50px;
+       margin: 0px 7px 0px -6px;
+    }
+    .btn-result-bingo{
+        font-size: 25px;
+        font-weight: 600;
+        height: 45px;
+        width: 44px;
+        margin-left: 33px;
+        color: #fff;
+    }
+    .wrap-ball-bg-seven{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 27%;
+        left: 0;
+    }
+    .ball-thirty-seven {
+        height: 70px;
+    }
+    .btn-result-seven{ 
+        font-weight: 700;
+        height: 45px;
+        font-size: 25px;
+        width: 50px;
+        margin: 0px 3px 0px -6px;
+     }
+     .seven-bingo {
+        font-size: 25px;
+        font-weight: 600;
+        height: 45px;
+        width: 50px;
+        margin-left: 28px;
+        color: #fff;
+     }
+
+    .four-d-result {
+        margin-top: 5px;
+    }
+
+    .post-result-content {
+        border: 2px solid #F7F7FA;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+    }
+
+    .box-time-number {
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        width: 100%;
+        height: 50px;
+        margin: 0px 5px;
+        background: #FF0013;
+        padding: 10px 15px;
+       
+        
+    }
+    .date{
+        font-family: 'KhmerOScontent';
+        font-size: 20px;
+        font-weight: 500;
+        color: #FFFFFF;
+        
+    }
+    .time{
+        font-family: 'KhmerOScontent';
+        float: right;
+        font-weight: 500;
+        font-size: 20px;
+        color: #FFFFFF;
+        
+    }
+
+    .date-result {
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        width: 100%;
+        height: 50px;
+        padding: 10px 15px;
+        background: #FF0013;
+    }
+
+    .date-d {
+        font-family: 'KhmerOScontent';
+        font-weight: 500;
+        font-size: 20px;
+        color: #FFFFFF;
+    }
+    .time-d{
+        font-family: 'KhmerOScontent';
+        font-weight: 500;
+        float: right;
+        font-size: 20px;
+        color: #FFFFFF;
+        
+    }
+
+    .table-responsive {
+        padding: 10px 0px;
+        background: #ffffff;
+    }
+
+    td, th{
+        font-size: 25px;
+        padding: 2px;
+        border: none;
+    }
+    th img{
+        width: 45px;
+    }
+    
+
+    .post-result{
+        height: 35px;
+        width: 80%;
+        text-align: right;
+        padding-right: 15px;
+        background: #F7F7FA;
+        border-radius: 40px;
+        box-shadow: inset 5px 5px 3px rgb(190, 190, 190), inset -5px -5px 3px #fff;
+    }
+    .btn-post-num {
+        font-size: 25px;
+        font-weight: 700;
+    }
+
+    .game-type {
+        color: #FF0013;
+        font-weight: 600;
+        font-size: 25px;
+        margin-left: 10px;
+        text-shadow: 2px 2px 2px #FFFFFF;
+    }
+
+    
+}
+
+/*-----------------------------------------------------------
+# Customize
+-------------------------------------------------------------*/
+#five-d-result {
+    background: #F4F2F1;
+    width: 100%; 
+  }
+  
+h2{
+    
+    color: #FF0013;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+
+.section-footer {
+    color: #FFFFFF;
+    background: #FF0013;
+    margin-top: auto;
+    p {
+        font-family: 'Lato', sans-serif;
+        font-size: 15px;
+       
+    }
+    .section-footer .btn-primary {
+        background-color: #FF0013;
+    }
+    .logo-bg-footer {
+        height: 68px;
+        width: 65px;
+        
+        padding: 6px;
+        margin-bottom: 15px;
+        
+    }
+    .footer-logo-wingo{
+        width: 100px;
+        height: auto;
+    }
+    .footer {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .media-body {
+        padding-left: 4px;
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      }
+      
+      li {
+        float: left;
+      }
+      
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 15px 3px;
+        text-decoration: none;
+      }
+      li a:hover{
+        opacity: 0.7;
+      }
+      .modal-body {
+          color: #000;
+          font-size: 15px;
+      }
+ 
+}
+
+
+
+.header-career-show {
+    background-attachment: fixed;
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../css/img/hiring.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../css/img/hiring.jpg");
+    background-size: cover;
+    background-position: bottom center;
+    position: relative;
+    padding-top: 0px;
+        .header-career-text{
+        
+            width: 100%;
+            text-align: center;
+            span {
+                padding-top: 10px;
+            }
+            a {
+                color: #ffffff;
+            }
+        } 
+}
+
+/******************************/
+/***about.html****/
+h2{
+    font-family: 'Roboto', sans-serif;
+    color: #555;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+
+
+#section-about-page {
+    padding: 50px auto;
+    .pic-one-ab{
+        width: 100%;
+        height: auto;
+        margin: 13px auto;
+    }
+}
+
+#license {
+    .img-fluid {
+        border: 1px solid #777;
+
+    }
+}
+
+.wrap-pic{
+    height: 100%;
+    width: 100%;
+    .why-pict {
+        height: 100%;
+        width: 100%;
+    }
+}
+.text-header {
+    font-family: 'Kh-Baphnom-026-Theany';
+    color: #555;
+    font-size: 18px;
+    margin-top: 15px;
+}
+.contact-wrap p {
+    font-family: 'KhmerOScontent';
+}
+#contact-location {
+    background: #ffffff;
+    .phone-number {
+        
+        font-size: 20px;
+    }
+    .address {
+        margin-top: 20px;
+    }
+}
+
+/****  end about*****************/
+/******************************/
+
+/***********************************/
+/********* Activities page ********/
+
+#activities-content {
+    background: #ffffff;
+    .page-link {
+        color: #555;
+    }
+    .card {
+        font-family: 'KhmerOScontent';
+        margin-bottom: 10px;
+        .date-post{
+            font-size: 15px;
+            margin-left: 5px;
+        }
+    }
+    .card-title {
+        font-size: 17px;
+        font-weight: 600;
+        margin: 5px 0px;
+    }
+    .activities-owl-carousel {
+        width: 100%;
+    }
+} 
+/********* end Activities page ********/
+/***********************************/
+
+
+/***********************************/
+/********* Activities_detail page ********/
+
+#activities-detail {
+    .card {
+        border: 1px solid #DDE3E6;
+    }
+    .card-title {
+        font-family: 'KhmerOScontent';
+        margin: 0px;
+    }
+    .card-body {
+        padding: 0px;
+    }
+    .list-group-item {
+        border: none;
+        padding: 0.5rem;
+        
+    }
+}
+#posts {
+    .card-title {
+        font-family: 'KhmerOScontent';
+        font-size: 16px;
+    }
+    
+}
+
+
+/********* end Activities_detail page ********/
+/***********************************/
+
+/***********************************/
+/********** start contact page ****/
+
+.contact-page {
+    background: #F7F7FA;
+    .contact-wrap{ 
+        height: 100%;
+        width: 100%;
+        background: #ffffff;
+        border-radius: 5px;
+        padding: 20px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+    }
+    
+}
+
+/********* end contact page ********/
+/***********************************/
+
+
+/***********************************/
+/********** start career page ****/
+
+#career-page {
+    padding-top: 20px;
+    td {
+        font-family: 'KhmerOScontent';
+        padding: 0.8rem;
+    }
+    .btn {
+        padding: 0.2rem;
+    }
+    .job-content {
+        width: 100%;
+        height: auto;
+        background-color: #F7F7FA;
+    }
+}
+
+/********* end career page ********/
+/***********************************/
+
+
+/***********************************/
+/********** start career_detail page ****/
+
+#career-detail {
+    .list-group {
+        .active {
+            border: none;
+        }
+       
+    }
+    h4 {
+        font-family: 'KhmerOScontent';
+    }
+    p {
+        font-family: 'KhmerOScontent';
+        line-height: 30px;
+    }
+    
+    .color-bg {
+        background-color: #F7F7FA;
+    }
+    .wrap-job {
+        padding: 20px;
+        height: 100%;
+        width: 100%;
+    }
+    td {
+        font-family: 'KhmerOScontent';
+        border-color: 1px solid #FFD700;
+    }
+   
+}
+
+/********* end career_detail page ********/
+/***********************************/
+
+/***********************************/
+/********** start Result five thirty five page ****/
+
+#result-five-content {
+    table td {
+        font-family: sans-serif;
+        padding: 0px 0px 0px 5px;
+        vertical-align: middle;
+    }
+    .btn {
+        pointer-events: none;
+    }
+    .ball-result {
+        border: 1px solid #777;
+        background: #ffffff;
+        margin: 5px 2px 5px 0px;
+        width: 40px;
+        height: 40px;
+        padding: 0px;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+    }
+    .ball-result-bingo {
+        background: #FF0013;
+        margin: 3px;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+    }
+    .ball-result-num {
+        font-size: 17px;
+        font-weight: 500;
+    }
+    .ball-result-num-bingo {
+        color: #ffffff;
+        font-size: 17px;
+        font-weight: 500;
+    }
+  
+    .nav-link {
+        font-size: 17px;
+    }
+}
+
+/********* end Result six thirty five page ********/
+/***********************************/
+
+/***********************************/
+/********** start Result five d page ****/
+.wrap-menu {
+    border-left: 3px solid #E9ECEF;
+    border-top: 1px solid #E9ECEF;
+    border-bottom: 20px solid #E9ECEF;
+    background: #E9ECEF;
+
+}
+.wrap-content {
+    width: 100%;
+    height: 100%;
+    border-top: 1px solid #E9ECEF;
+    padding-top: 15px;
+    background: #fff;
+}
+
+.result-bottom {
+    margin-top: 0;
+}
+
+.ball-result-five {
+    background: #BFC9CA;
+    margin: 5px 2px 5px 0px;
+    width: 30px;
+    height: 30px;
+    padding: 0px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.ball-result-six {
+    background: #FFF200;
+    margin: 5px 2px 5px 0px;
+    width: 30px;
+    height: 30px;
+    padding: 0px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.ball-result-bingo {
+    background: #FF0013;
+    margin: 3px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.ball-result-num {
+    font-size: 17px;
+    font-weight: 700;
+}
+.ball-result-num-bingo {
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+#game-result {
+    background: #F7F7FA;
+    .btn {
+        pointer-events: none;
+        padding: 0rem 0rem;
+    }
+    .page-link {
+        color: #555;
+    }
+
+    
+    .row {
+        background: #fff;
+    }
+    .plus-sign {
+        font-size: 17px;
+        margin: 0px 5px;
+        font-weight: 700;
+        color: #FF0013;
+    }
+    .icofont-search {
+        color: #555;
+    }
+    .bingo-result {
+        font-size: 20px;
+        font-weight: 500;
+        color: #FF0013;
+    }
+    textarea:focus, input:focus{
+        outline: none;
+    }
+    input[type=text] {
+            border: 1px solid red;
+          
+          }
+    input.form-control:focus {
+    box-shadow: none;
+    border: 1.5px solid #E3E6ED;
+    background-color: #F7F8FD;
+    letter-spacing: 1px
+    }
+    textarea.form-control:focus {
+        box-shadow: none;
+        border: 1.5px solid #E3E6ED;
+        background-color: #F7F8FD;
+        letter-spacing: 1px
+    }
+.input-group-append .btn, .input-group-prepend .btn {
+    z-index: 0;
+    padding: 5px 10px;
+}
+    .search-form form {
+        background: #fff;
+        border: 1px solid #ddd;
+        padding: 3px 10px;
+        position: relative;
+        border-radius: 4px;
+      }
+      .search-form form input[type="text"] {
+        border: 0;
+        padding: 4px;
+        width: calc(100% - 40px);
+      }
+      .search-form form button {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        border: 0;
+        background: none;
+        font-size: 16px;
+        padding: 0 15px;
+        margin: -1px;
+        background: #FFD700;
+        color: #fff;
+        transition: 0.3s;
+        border-radius: 0 4px 4px 0;
+      }
+      .search-form form button:hover {
+        background: #FFD700;
+      }      
+
+    table td {
+        font-size: 15px;
+        font-weight: 500;
+        padding: 0px 0px 0px 5px;
+        vertical-align: middle;
+    }
+    .post-type {
+        padding: 5px;
+        font-weight: 500;
+        font-size: 17px;
+    }
+    
+    .nav-link {
+        font-family: 'KhmerOScontent';
+        font-size: 17px;
+        color: #555;
+        line-height: 4;
+    }
+    
+    .active {
+        color: #000;
+        background: #fff;
+    }
+    .nav-pills .nav-link {
+        border-radius: none;
+    }
+
+    
+}
+
+#lotto-content {
+    font-family: 'KhmerOScontent';
+    .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+        color: #000;
+        background-color: #FFF;
+    }
+    .nav-pills .nav-link {
+        border-radius: 0.25rem;
+        font-size: 20px;
+        color: #555;
+    }
+}
+
+#scratch-content {
+    
+
+    background: url("../css/img/2.png") bottom center / cover no-repeat;
+    .row {
+        background: #fff;
+    }
+   
+    .nav-link {
+        font-size: 17px;
+        line-height: 2.5;
+    }
+    
+    
+    .active {
+        color: #000;
+        background: #fff;
+    }
+    .nav-pills .nav-link {
+        border-radius: none;
+    }
+    /*------------------------------------------------------------
+#scratch product
+--------------------------------------------------------------*/
+.product-box {
+    padding: 0;
+    border: 1px solid #e7eaec;
+  }
+  .product-box:hover,
+  .product-box.active {
+    -webkit-box-shadow: 0 3px 7px 0 #a8a8a8;
+    -moz-box-shadow: 0 3px 7px 0 #a8a8a8;
+    box-shadow: 0 3px 7px 0 #a8a8a8;
+    -webkit-transition: all 300ms linear;
+    transition: all 300ms linear;
+    -moz-transition: all 300ms linear;
+    -ms-transition: all 300ms linear;
+    -o-transition: all 300ms linear;
+}
+  .product-imitation {
+    text-align: center;
+    font-weight: 600;
+  }
+  .cart-product-imitation {
+    text-align: center;
+    padding-top: 30px;
+    height: 80px;
+    width: 80px;
+    background-color: #f8f8f9;
+  }
+  .product-imitation.xl {
+    padding: 120px 0;
+  }
+  .product-desc {
+    font-family: 'KhmerOScontent';
+    padding: 20px;
+    position: relative;
+  }
+  .ecommerce .tag-list {
+    padding: 0;
+  }
+  .ecommerce .fa-star {
+    color: #FF0013;
+  }
+  .ecommerce .fa-star.active {
+    color: #FF0013;
+  }
+  .ecommerce .note-editor {
+    border: 1px solid #e7eaec;
+  }
+  table.shoping-cart-table {
+    margin-bottom: 0;
+  }
+  table.shoping-cart-table tr td {
+    border: none;
+    text-align: right;
+  }
+  table.shoping-cart-table tr td.desc,
+  table.shoping-cart-table tr td:first-child {
+    text-align: left;
+  }
+  table.shoping-cart-table tr td:last-child {
+    width: 80px;
+  }
+  .product-name {
+    font-family: 'KhmerOScontent';
+    font-size: 20px;
+    font-weight: 500;
+    color: #676a6c;
+    display: block;
+    margin: 2px 0 5px 0;
+  }
+  .product-name:hover,
+  .product-name:focus {
+    color: #FF0013;
+  }
+  .product-price {
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #FF0013;
+    padding: 6px 12px;
+    position: absolute;
+    top: -32px;
+    right: 0;
+  }
+  
+  .product-detail .ibox-content {
+    padding: 30px 30px 50px 30px;
+  }
+  .image-imitation {
+    background-color: #f8f8f9;
+    text-align: center;
+    padding: 200px 0;
+  }
+  .product-main-price small {
+    font-size: 10px;
+  }
+  .product-images {
+    margin: 0 20px;
+  }
+  
+  .ibox {
+    clear: both;
+    margin-bottom: 25px;
+    margin-top: 0;
+    padding: 0;
+  }
+  .ibox.collapsed .ibox-content {
+    display: none;
+  }
+  .ibox.collapsed .fa.fa-chevron-up:before {
+    content: "\f078";
+  }
+  .ibox.collapsed .fa.fa-chevron-down:before {
+    content: "\f077";
+  }
+  .ibox:after,
+  .ibox:before {
+    display: table;
+  }
+  .ibox-title {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #ffffff;
+    border-color: #e7eaec;
+    border-image: none;
+    border-style: solid solid none;
+    border-width: 3px 0 0;
+    color: inherit;
+    margin-bottom: 0;
+    padding: 14px 15px 7px;
+    min-height: 48px;
+  }
+  .ibox-content {
+    background-color: #ffffff;
+    color: inherit;
+    padding: 15px 20px 20px 20px;
+    border-color: #e7eaec;
+    border-image: none;
+    border-style: solid solid none;
+    border-width: 1px 0;
+  }
+  .ibox-footer {
+    color: inherit;
+    border-top: 1px solid #e7eaec;
+    font-size: 90%;
+    background: #ffffff;
+    padding: 10px 15px;
+  }
+
+  
+  /*------------------------------------------------------------
+  #End scratch product
+  --------------------------------------------------------------*/
+  
+   
+}
+
+/********* end Result five d page ********/
+/***********************************/
+
+/***********************************/
+/********** start detail product page ****/
+.wrap-detail {
+    width: 100%;
+    padding: 10px;
+    
+}
+.image-scratch {
+    display: block;
+    width: 100%;
+    float: left;
+}
+.detail-title {
+    
+    font-size: 25px;
+    text-align: center;
+}
+.sub-title {
+    
+    text-decoration: underline;
+    color:#FF0013;
+    font-size: 17px;
+    
+}
+.title-ex {
+    
+    margin-right: 10px;
+    color: #FF0013;
+    font-size: 17px;
+ 
+}
+.list-group-item {
+    font-family: 'KhmerOScontent';
+}
+
+/********* end detail product page ********/
+/***********************************/
+.wrape-product {
+    .card {
+        border:none;
+    }
+    .card:hover{
+        transform: scale(1.1);
+        transition: 500ms linear; 
+    }
+    
+}
+
+.section-title h2 {
+    font-family: 'Kh-Baphnom-026-Theany';
+    font-size: 34px;
+}
+
+
+ // Large devices (desktops, less than 1200px)
+@media (max-width: 1200px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+    #navbar {
+        .logo-bg {
+            left: 3%;
+            width: 71px;
+            height: 70px;
+            padding: 5px 5px;
+        }
+        .navbar-toggler{
+            line-height: 3;
+        }
+        
+    }
+
+    #section-result {
+        min-height: 53vh;
+        .btn-result {
+            font-size: 25px;
+            width: 42px;
+        }
+        .wrap-ball-bg {
+            width: 100%;
+            top: 24%;
+        }
+
+        .btn-result-bingo {
+            font-size: 25px;
+            margin-left: 20px;
+            width: 40px;
+        }
+        .time-note {
+            font-size: 15px;
+            
+        }
+
+        th {
+            font-size: 20px;
+            padding: 2px;
+        }
+        
+        .ball-thirty-seven {
+            height: 58px;
+        }
+        .ball-image{
+            height: 58px;
+        }
+
+        .seven-bingo {
+            height: 45px;
+            width: 41px;
+            margin-left: 20px;
+            color: #fff;
+        }
+        .btn-result-seven {
+            height: 45px;
+            width: 44px;
+            margin: -5px 2px 0px -7px;
+        }
+    }
+    h5 {
+        font-size: 1rem;
+        color: #555;
+    }
+    .icon-bar-small {
+        display: none;
+        
+    }
+   
+ }
+
+ /* Small Devices (Portrait Tablets & Small Desktops) */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #section-result{
+        .time {
+            font-size: 17px;
+        }
+        .date {
+            font-size: 17px;
+        }
+        .date-d {
+            font-size: 17px; 
+        }
+        .time-d {
+            font-size: 17px; 
+        }
+        .countdown {
+            padding: 2px 10px;  
+        }
+        .countdown .display {
+            font-size: 17px;
+            font-weight: 500;
+        }
+        
+    } 
+    
+    .section-title h2 {
+        font-family: 'Kh-Baphnom-026-Theany';
+        font-size: 20px;
+    }
+    .icon-bar-small {
+        display: none;
+        
+    }
+    .flag {
+        display: block;
+    }
+    .fn-btn {
+        display: block;
+    }
+    .img-menu {
+        width: 40px;
+    }
+   
+}
+
+/* Extra Small Devices (Portrait Phones & Smaller Devices) */
+
+@media (max-width: 767px) {
+    /* Home */
+    #main {
+        border-top: 3px solid #FFD700;
+        margin-top: 10px;
+    }
+    section {
+        padding: 20px 0;
+    }
+    #game-result {
+        .nav-link {
+            line-height: 1px;
+        }
+    }
+    .result-title {
+        font-weight: 400;
+    }
+    #section-result{
+        .box-time-number {
+            height: 40px;
+        }
+        .date-d {
+            font-size: 15px;
+        }
+        .time-d {
+            font-size: 15px;
+        }
+        .countdown {
+            padding: 10px 10px;  
+        }
+        .countdown .display {
+            font-size: 16px;
+            font-weight: 500;
+        }
+        .game-type {
+            font-weight: 400;
+            font-size: 16px;
+        }
+        .date {
+            font-size: 16px;
+        }
+        .time {
+            font-size: 16px;
+        }
+        .btn-result {
+            font-size: 20px;
+        }
+        .btn-result-bingo {
+            font-size: 20px;
+        }
+        .result-title img {
+            width: 35px;
+        }
+        .btn-result-seven {
+            font-size: 20px;
+        }
+        .seven-bingo {
+            font-size: 20px;
+        }
+        .wrap-ball-bg-seven {
+            top: 25%;
+        }
+        .date-result {
+            height: 40px;
+        }
+        .post-result {
+            padding-right: 10px;
+        }
+        th img {
+            width: 30px;
+        }
+        th {
+            font-size: 16px;
+        }
+        .btn-post-num {
+            font-size: 17px;
+        }
+        
+    } 
+    .section-title h2 {
+        font-family: 'Kh-Baphnom-026-Theany';
+        font-size: 17px;
+    }
+    .game-five-d {
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .icon-bar {
+        display: none;
+    }
+    .icon-bar-small {
+        display: flex;
+    }
+    .flag {
+        display: block;
+    }
+    .fn-btn {
+        display: block;
+    }
+    .result-bottom {
+        margin-top: 50px;
+    }
+    .section-title {
+        padding-bottom: 0;
+    }
+    .result-title {
+        font-size: 16px;
+    }
+    .services .title{
+        font-size: 15px;
+    }
+    .text-header {
+        font-size: 16px;
+        font-weight: 400;
+    }
+    /*===============draw result=======*/
+    .img-menu {
+        width: 30px;
+    }
+    .section-title {
+        font-size: 16px;
+    }
+    .ball-result-num {
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .ball-result-bingo {
+        width: 25px;
+        height: 25px;
+    }
+    #game-result {
+        .nav-link {
+            font-size: 15px;
+        }
+        .plus-sign {
+            margin: 0;
+        }
+        
+        .bingo-result {
+            font-size: 11px;
+        }
+    }
+    .ball-result-num-bingo {
+        font-size: 13px;
+    }
+
+    /*=================scratch product============*/
+    #scratch-content{
+        .product-desc {
+            font-family: 'KhmerOScontent';
+            padding: 0;
+        }
+    } 
+    #lotto-content {
+        .nav-pills .nav-link {
+            font-size: 16px;
+        }
+    }
+    #about-us{
+        h3 {
+            font-size: 25px !important;
+            text-align: center;
+        }
+    } 
+
+  }
+  
+  
+  /* Extra Small Devices (Portrait Phones & Smaller Devices) */
+  
+  @media (max-width: 320px) {
+    /* Testimonials */
+    #section-result{
+        .box-time-number {
+            height: 35px;
+        }
+        .box-time-number {
+            padding: 5px 15px;
+        }
+        .ball-image {
+        height: 50px;
+        }
+        .wrap-ball-bg {
+            top: 21%;
+        }
+        .btn-result {
+        font-size: 20px;
+        width: 36px;
+        }
+        .countdown .display {
+        font-size: 13px;
+        }
+        .result-title {
+            font-size: 13px;
+        }
+       .game-type {
+            font-size: 13px;
+        }
+        .btn-result-bingo {
+            font-size: 20px;
+            width: 32px;
+        }
+        .date {
+            font-size: 13px;
+        }
+        .time {
+            font-size: 13px;
+        }
+        .ball-thirty-seven {
+            height: 50px;
+        }
+        .btn-result-seven {
+            font-size: 20px;
+            height: 43px;
+            width: 38px;
+            margin: -5px 2px 0px -7px;
+        }
+        .seven-bingo {
+            height: 41px;
+            width: 41px;
+            margin-left: 11px;
+            font-size: 20px;
+        }
+        .result-title img {
+            width: 35px;
+        }
+        .game-five-d {
+            font-size: 15px;
+        }
+        .date-d {
+            font-size: 15px;
+
+        }
+        .date-result {
+            height: 35px;
+            padding: 4px 15px;
+        }
+        .time-d {
+            font-size: 15px;
+        }
+        th img {
+            width: 35px;
+        }
+        td {
+            padding: 0px;
+        }
+        .btn-post-num {
+            font-size: 17px;
+        }
+        .post-result {
+            padding-right: 9px;
+            width: 56px;
+        }
+        .countdown {
+            padding: 2px 10px;
+        } 
+    }
+    .section-title h2 {
+        font-size: 20px;
+    }
+    
+    .flag {
+        display: block;
+    }
+  }
+
+
+
+

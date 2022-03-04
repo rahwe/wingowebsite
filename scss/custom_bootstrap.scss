@@ -1,0 +1,10 @@
+// override default color
+$theme-colors: (
+    "primary": #FFD700,
+    "secondary": #FF0013,
+    "color-gray": #E9ECEF
+
+);
+
+// import bootstrap
+@import "../vendors/bootstrap/scss/bootstrap";
